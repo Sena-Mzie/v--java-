@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- VUKA Shield Logo — vector representation -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+
+    <!-- Outer shield glow -->
+    <path
+        android:pathData="M40,4 L70,16 L70,44 Q70,62 40,76 Q10,62 10,44 L10,16 Z"
+        android:fillColor="#1A2254"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="1" />
+
+    <!-- Shield body -->
+    <path
+        android:pathData="M40,8 L67,19 L67,43 Q67,60 40,73 Q13,60 13,43 L13,19 Z"
+        android:fillColor="#0D1333"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="2" />
+
+    <!-- V checkmark -->
+    <path
+        android:pathData="M25,40 L35,52 L57,28"
+        android:fillColor="#00000000"
+        android:strokeColor="#F5A623"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

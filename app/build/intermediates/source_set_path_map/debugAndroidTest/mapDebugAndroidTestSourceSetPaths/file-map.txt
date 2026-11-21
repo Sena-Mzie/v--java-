@@ -1,0 +1,6 @@
+com.vuka.app.test.app-jetified-annotation-experimental-1.3.0-0 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\551c2429a409c597920492dbb6868d58\workspace\transformed\jetified-annotation-experimental-1.3.0\res
+com.vuka.app.test.app-jetified-core-1.5.0-1 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\b7118b2bed4de872ad3f95895a611970\workspace\transformed\jetified-core-1.5.0\res
+com.vuka.app.test.app-androidTest-2 C:\Users\FMTALI-16\Desktop\v (java)\app\build\generated\res\resValues\androidTest\debug
+com.vuka.app.test.app-mergeDebugAndroidTestResources-3 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vuka.app.test.app-mergeDebugAndroidTestResources-4 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vuka.app.test.app-debugAndroidTest-5 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

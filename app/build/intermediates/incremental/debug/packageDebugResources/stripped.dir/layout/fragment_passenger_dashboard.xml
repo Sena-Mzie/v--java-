@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vuka_navy_dark">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_greeting"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/tv_avatar_pass"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent">
+                    <TextView android:id="@+id/tv_greeting" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Good Morning,"
+                        android:textColor="@color/vuka_text_secondary" android:textSize="14sp" />
+                    <TextView android:id="@+id/tv_username" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:text="Jane Doe"
+                        android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_avatar_pass"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:text="JD"
+                    android:textColor="@color/vuka_gold"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:background="@drawable/bg_avatar_circle"
+                    android:contentDescription="Profile"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Start New Journey CTA -->
+            <Button
+                android:id="@+id/btn_start_journey"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/start_new_journey"
+                android:textColor="@color/vuka_navy_dark"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="@drawable/bg_button_primary"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="Start a new journey — opens trip creation" />
+
+            <!-- Shared Trips Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_shared_trips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="View shared trips"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/card_border"
+                app:strokeWidth="1dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="@string/shared_trips"
+                            android:textColor="@color/vuka_text_primary" android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="→" android:textColor="@color/vuka_gold" android:textSize="18sp" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="2 active trips being monitored"
+                        android:textColor="@color/vuka_text_secondary" android:textSize="13sp"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Safety Alerts Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_safety_alerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="View safety alerts"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/risk_elevated"
+                app:strokeWidth="1dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="@string/safety_alerts"
+                            android:textColor="@color/vuka_text_primary" android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView android:layout_width="24dp" android:layout_height="24dp"
+                            android:text="1" android:textColor="@color/vuka_navy_dark"
+                            android:textStyle="bold" android:textSize="12sp" android:gravity="center"
+                            android:background="@drawable/bg_risk_elevated" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🟡 High Risk Area detected 2km away"
+                        android:textColor="@color/risk_elevated" android:textSize="13sp"
+                        android:layout_marginTop="8dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="⚠ ILLUSTRATIVE DATA" android:textColor="@color/vuka_text_hint"
+                        android:textSize="10sp" android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Trusted Contacts Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_trusted_contacts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Manage trusted contacts"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/card_border"
+                app:strokeWidth="1dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="16dp">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:gravity="center_vertical">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                            android:layout_weight="1" android:text="@string/trusted_contacts"
+                            android:textColor="@color/vuka_text_primary" android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="→" android:textColor="@color/vuka_gold" android:textSize="18sp" />
+                    </LinearLayout>
+                    <TextView android:id="@+id/tv_contacts_summary"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="3 contacts  |  2 accepted"
+                        android:textColor="@color/vuka_text_secondary" android:textSize="13sp"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Report Incident Card -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_report_incident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Report an incident"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeColor="@color/card_border"
+                app:strokeWidth="1dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:padding="16dp"
+                    android:gravity="center_vertical">
+                    <TextView android:layout_width="40dp" android:layout_height="40dp"
+                        android:text="⚠" android:textSize="22sp" android:gravity="center"
+                        android:background="@drawable/bg_risk_high" />
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical"
+                        android:layout_marginStart="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="@string/report_incident"
+                            android:textColor="@color/vuka_text_primary" android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Tap to report suspicious activity or incidents"
+                            android:textColor="@color/vuka_text_secondary" android:textSize="12sp"
+                            android:layout_marginTop="4dp" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="→" android:textColor="@color/vuka_gold" android:textSize="18sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Persistent SOS FAB -->
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_sos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="SOS"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/sos_red"
+        android:contentDescription="@string/content_desc_sos_button"
+        app:icon="@android:drawable/ic_dialog_alert"
+        app:iconTint="@color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

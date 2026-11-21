@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base VUKA Theme — dark navy -->
+    <style name="Theme.Vuka" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/vuka_gold</item>
+        <item name="colorPrimaryDark">@color/vuka_navy_dark</item>
+        <item name="colorAccent">@color/vuka_gold</item>
+        <item name="colorOnPrimary">@color/vuka_navy_dark</item>
+        <item name="colorSecondary">@color/vuka_navy_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/vuka_navy_card</item>
+        <item name="colorOnSurface">@color/vuka_text_primary</item>
+        <item name="android:colorBackground">@color/vuka_navy_dark</item>
+        <item name="colorOnBackground">@color/vuka_text_primary</item>
+        <item name="colorError">@color/risk_high</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:windowBackground">@color/vuka_navy_dark</item>
+        <item name="android:statusBarColor">@color/vuka_navy_dark</item>
+        <item name="android:navigationBarColor">@color/vuka_navy_dark</item>
+        <item name="android:textColorPrimary">@color/vuka_text_primary</item>
+        <item name="android:textColorSecondary">@color/vuka_text_secondary</item>
+        <item name="materialButtonStyle">@style/Widget.Vuka.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.Vuka.BottomNavigation</item>
+        <item name="textInputStyle">@style/Widget.Vuka.TextInput</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.Vuka.Splash" parent="Theme.Vuka">
+        <item name="android:windowBackground">@color/vuka_navy_dark</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- No Title Bar -->
+    <style name="Theme.Vuka.NoActionBar" parent="Theme.Vuka">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base Widget.Vuka required for style hierarchy resolution -->
+    <style name="Widget.Vuka" parent="android:Widget" />
+
+    <!-- Primary Button -->
+    <style name="Widget.Vuka.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/vuka_gold</item>
+        <item name="android:textColor">@color/vuka_navy_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <!-- Secondary / Outline Button -->
+    <style name="Widget.Vuka.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/vuka_gold</item>
+        <item name="android:textColor">@color/vuka_gold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <!-- Text Button -->
+    <style name="Widget.Vuka.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/vuka_text_secondary</item>
+    </style>
+
+    <!-- SOS Button -->
+    <style name="Widget.Vuka.Button.SOS" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/sos_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.Vuka.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/bottom_nav_bg</item>
+        <item name="itemIconTint">@color/bottom_nav_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_selector</item>
+        <item name="elevation">8dp</item>
+    </style>
+    <!-- Text Input -->
+    <style name="Widget.Vuka.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/input_bg</item>
+        <item name="boxStrokeColor">@color/input_border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/vuka_text_hint</item>
+        <item name="android:textColorHint">@color/vuka_text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Card -->
+    <style name="Widget.Vuka.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_bg</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">@color/card_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextStyle.Vuka.Title" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/vuka_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextStyle.Vuka.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/vuka_text_secondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextStyle.Vuka.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/vuka_text_primary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextStyle.Vuka.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/vuka_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextStyle.Vuka.Gold" parent="TextStyle.Vuka.Body">
+        <item name="android:textColor">@color/vuka_gold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Risk Badge Styles -->
+    <style name="Widget.Vuka.RiskBadge">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Widget.Vuka.RiskBadge.Low" parent="Widget.Vuka.RiskBadge">
+        <item name="android:textColor">@color/risk_low</item>
+        <item name="android:background">@drawable/bg_risk_low</item>
+    </style>
+
+    <style name="Widget.Vuka.RiskBadge.Moderate" parent="Widget.Vuka.RiskBadge">
+        <item name="android:textColor">@color/risk_moderate</item>
+        <item name="android:background">@drawable/bg_risk_moderate</item>
+    </style>
+
+    <style name="Widget.Vuka.RiskBadge.Elevated" parent="Widget.Vuka.RiskBadge">
+        <item name="android:textColor">@color/risk_elevated</item>
+        <item name="android:background">@drawable/bg_risk_elevated</item>
+    </style>
+
+    <style name="Widget.Vuka.RiskBadge.High" parent="Widget.Vuka.RiskBadge">
+        <item name="android:textColor">@color/risk_high</item>
+        <item name="android:background">@drawable/bg_risk_high</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="Theme.Vuka.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorSurface">@color/vuka_navy_card</item>
+        <item name="colorOnSurface">@color/vuka_text_primary</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <!-- Bottom Sheet -->
+    <style name="Theme.Vuka.BottomSheet" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Vuka.BottomSheet</item>
+    </style>
+
+    <style name="Widget.Vuka.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="backgroundTint">@color/vuka_navy_card</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Vuka.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.Vuka.BottomSheet" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.Vuka.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/vuka_navy</item>
+        <item name="titleTextColor">@color/vuka_text_primary</item>
+        <item name="navigationIconTint">@color/vuka_text_primary</item>
+    </style>
+</resources>

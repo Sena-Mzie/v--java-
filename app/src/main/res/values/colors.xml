@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VUKA Brand Primary Colors (from design reference: dark navy theme) -->
+    <color name="vuka_navy_dark">#0A0E27</color>
+    <color name="vuka_navy">#0D1333</color>
+    <color name="vuka_navy_medium">#111840</color>
+    <color name="vuka_navy_light">#1A2254</color>
+    <color name="vuka_navy_card">#151C47</color>
+    <color name="vuka_navy_surface">#1E2760</color>
+
+    <!-- Gold / Amber Accent -->
+    <color name="vuka_gold">#F5A623</color>
+    <color name="vuka_gold_dark">#D4891A</color>
+    <color name="vuka_gold_light">#FFB84D</color>
+
+    <!-- Primary Button Color -->
+    <color name="vuka_button_primary">#F5A623</color>
+    <color name="vuka_button_secondary">#1E2760</color>
+
+    <!-- Text Colors -->
+    <color name="vuka_text_primary">#FFFFFF</color>
+    <color name="vuka_text_secondary">#B0B8D4</color>
+    <color name="vuka_text_hint">#6B7399</color>
+    <color name="vuka_text_gold">#F5A623</color>
+
+    <!-- Risk Colors -->
+    <color name="risk_low">#00C853</color>
+    <color name="risk_low_bg">#0A2E1A</color>
+    <color name="risk_moderate">#FFD600</color>
+    <color name="risk_moderate_bg">#2E2A00</color>
+    <color name="risk_elevated">#FF6D00</color>
+    <color name="risk_elevated_bg">#2E1500</color>
+    <color name="risk_high">#D50000</color>
+    <color name="risk_high_bg">#2E0000</color>
+
+    <!-- Status Colors -->
+    <color name="status_verified">#00C853</color>
+    <color name="status_pending">#FFD600</color>
+    <color name="status_rejected">#D50000</color>
+    <color name="status_info">#2196F3</color>
+
+    <!-- Emergency / SOS -->
+    <color name="sos_red">#FF1744</color>
+    <color name="sos_red_dark">#B71C1C</color>
+    <color name="sos_red_glow">#FF5252</color>
+    <color name="emergency_bg">#1A0000</color>
+
+    <!-- Safe / Success -->
+    <color name="safe_green">#00E676</color>
+    <color name="safe_green_dark">#00C853</color>
+
+    <!-- Input Fields -->
+    <color name="input_bg">#1A2254</color>
+    <color name="input_border">#2D3A7A</color>
+    <color name="input_border_focused">#F5A623</color>
+
+    <!-- Card backgrounds -->
+    <color name="card_bg">#151C47</color>
+    <color name="card_border">#1E2760</color>
+    <color name="card_highlight">#1E2F70</color>
+
+    <!-- Divider -->
+    <color name="divider">#1E2760</color>
+
+    <!-- Overlay -->
+    <color name="overlay_dark">#CC000000</color>
+    <color name="overlay_navy">#CC0A0E27</color>
+
+    <!-- Consent Status -->
+    <color name="consent_accepted">#00C853</color>
+    <color name="consent_pending">#FFD600</color>
+    <color name="consent_declined">#D50000</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_bg">#0D1333</color>
+    <color name="bottom_nav_active">#F5A623</color>
+    <color name="bottom_nav_inactive">#4A527A</color>
+
+    <!-- Map simulation colors -->
+    <color name="map_route">#F5A623</color>
+    <color name="map_route_safe">#00C853</color>
+    <color name="map_bg">#0D1A3A</color>
+    <color name="map_grid">#1A2254</color>
+
+    <!-- White variants -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha_80">#CCFFFFFF</color>
+    <color name="white_alpha_60">#99FFFFFF</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>

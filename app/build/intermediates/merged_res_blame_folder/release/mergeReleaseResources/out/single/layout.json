@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_passenger_dashboard.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_passenger_dashboard.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_driver_verification.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_driver_verification.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_admin_report.xml",
+        "source": "com.vuka.app-main-51:/layout/item_admin_report.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_admin_dashboard.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_otp_verify.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_otp_verify.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_role_selection.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_role_selection.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/dialog_add_contact.xml",
+        "source": "com.vuka.app-main-51:/layout/dialog_add_contact.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_route_deviation.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_route_deviation.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_risk_factor.xml",
+        "source": "com.vuka.app-main-51:/layout/item_risk_factor.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_profile.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_permissions.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_permissions.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_login.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_driver_registration.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_driver_registration.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_alert.xml",
+        "source": "com.vuka.app-main-51:/layout/item_alert.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_trip.xml",
+        "source": "com.vuka.app-main-51:/layout/item_trip.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_driver_dashboard.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_driver_dashboard.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_active_monitoring.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_active_monitoring.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_duress_pin.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_duress_pin.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_report_history.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_report_history.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_trusted_contact_live.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_trusted_contact_live.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_incident_report.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_incident_report.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/activity_splash.xml",
+        "source": "com.vuka.app-main-51:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/activity_main.xml",
+        "source": "com.vuka.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_loading_analysis.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_loading_analysis.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_sos_emergency.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_sos_emergency.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_trip_safety_profile.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_trip_safety_profile.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_contact.xml",
+        "source": "com.vuka.app-main-51:/layout/item_contact.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/item_incident_report.xml",
+        "source": "com.vuka.app-main-51:/layout/item_incident_report.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_create_trip.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_create_trip.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_safe_arrival.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_safe_arrival.xml"
+    },
+    {
+        "merged": "com.vuka.app-mergeReleaseResources-49:/layout/fragment_trusted_contacts.xml",
+        "source": "com.vuka.app-main-51:/layout/fragment_trusted_contacts.xml"
+    }
+]

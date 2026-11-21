@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vuka.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:7:5-65
+14-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission
+16-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:9:5-108
+17        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+17-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:9:22-78
+18        android:maxSdkVersion="28" />
+18-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:9:79-105
+19    <uses-permission android:name="android.permission.SEND_SMS" />
+19-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:10:5-67
+19-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+20-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:11:5-70
+20-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:11:22-67
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:12:5-77
+21-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:12:22-74
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:13:5-67
+22-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:13:22-64
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:14:5-66
+23-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:14:22-63
+24    <uses-permission android:name="android.permission.READ_CONTACTS" />
+24-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:15:5-72
+24-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:15:22-69
+25    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+25-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:16:5-72
+25-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:16:22-69
+26    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+26-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:17:5-74
+26-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:17:22-71
+27    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+27-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:18:5-76
+27-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:18:22-73
+28    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+28-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:19:5-77
+28-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:19:22-74
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+29-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:20:5-86
+29-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:20:22-83
+30
+31    <uses-feature
+31-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:22:5-85
+32        android:name="android.hardware.camera"
+32-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:22:19-57
+33        android:required="false" />
+33-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:22:58-82
+34
+35    <permission
+35-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+36        android:name="com.vuka.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.vuka.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:24:5-82:19
+42        android:name="com.vuka.app.VukaApplication"
+42-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:25:9-40
+43        android:allowBackup="true"
+43-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:26:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.12.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:27:9-43
+48        android:label="@string/app_name"
+48-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:29:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:28:9-54
+50        android:supportsRtl="true"
+50-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:30:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.Vuka"
+52-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:31:9-42
+53        android:usesCleartextTraffic="true" >
+53-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:32:9-44
+54
+55        <!-- Splash / Main Entry -->
+56        <activity
+56-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:35:9-44:20
+57            android:name="com.vuka.app.activities.SplashActivity"
+57-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:36:13-54
+58            android:exported="true"
+58-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:37:13-36
+59            android:screenOrientation="portrait"
+59-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:39:13-49
+60            android:theme="@style/Theme.Vuka.Splash" >
+60-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:38:13-53
+61            <intent-filter>
+61-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:40:13-43:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:41:17-69
+62-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:41:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:42:17-77
+64-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:42:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <!-- Main Navigation Host -->
+69        <activity
+69-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:47:9-51:52
+70            android:name="com.vuka.app.activities.MainActivity"
+70-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:48:13-52
+71            android:exported="false"
+71-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:49:13-37
+72            android:screenOrientation="portrait"
+72-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:51:13-49
+73            android:windowSoftInputMode="adjustResize" />
+73-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:50:13-55
+74
+75        <!-- Admin Activity -->
+76        <activity
+76-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:54:9-57:52
+77            android:name="com.vuka.app.activities.AdminActivity"
+77-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:55:13-53
+78            android:exported="false"
+78-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:56:13-37
+79            android:screenOrientation="portrait" />
+79-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:57:13-49
+80
+81        <!-- Trip Monitor Activity (foreground) -->
+82        <activity
+82-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:60:9-63:52
+83            android:name="com.vuka.app.activities.TripMonitorActivity"
+83-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:61:13-59
+84            android:exported="false"
+84-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:62:13-37
+85            android:screenOrientation="portrait" />
+85-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:63:13-49
+86
+87        <!-- Trusted Contact Live View Activity -->
+88        <activity
+88-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:66:9-69:52
+89            android:name="com.vuka.app.activities.TrustedContactLiveActivity"
+89-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:67:13-66
+90            android:exported="false"
+90-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:68:13-37
+91            android:screenOrientation="portrait" />
+91-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:69:13-49
+92
+93        <!-- File Provider for camera -->
+94        <provider
+95            android:name="androidx.core.content.FileProvider"
+95-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:73:13-62
+96            android:authorities="com.vuka.app.fileprovider"
+96-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:74:13-64
+97            android:exported="false"
+97-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:75:13-37
+98            android:grantUriPermissions="true" >
+98-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:76:13-47
+99            <meta-data
+99-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:77:13-79:54
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:78:17-67
+101                android:resource="@xml/file_paths" />
+101-->C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\AndroidManifest.xml:79:17-51
+102        </provider>
+103        <provider
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+105            android:authorities="com.vuka.app.androidx-startup"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+106            android:exported="false" >
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+107            <meta-data
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+109                android:value="androidx.startup" />
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2da18823b2a03d65d9fffd06577b99c1\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+111-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2da18823b2a03d65d9fffd06577b99c1\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+112                android:value="androidx.startup" />
+112-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2da18823b2a03d65d9fffd06577b99c1\workspace\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+113            <meta-data
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+115                android:value="androidx.startup" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+116        </provider>
+117
+118        <uses-library
+118-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+119            android:name="androidx.window.extensions"
+119-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+120            android:required="false" />
+120-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+121        <uses-library
+121-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+122            android:name="androidx.window.sidecar"
+122-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+124
+125        <service
+125-->[androidx.room:room-runtime:2.6.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7da31a2d8b5a62cb816e0755526adb4d\workspace\transformed\room-runtime-2.6.0\AndroidManifest.xml:24:9-28:63
+126            android:name="androidx.room.MultiInstanceInvalidationService"
+126-->[androidx.room:room-runtime:2.6.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7da31a2d8b5a62cb816e0755526adb4d\workspace\transformed\room-runtime-2.6.0\AndroidManifest.xml:25:13-74
+127            android:directBootAware="true"
+127-->[androidx.room:room-runtime:2.6.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7da31a2d8b5a62cb816e0755526adb4d\workspace\transformed\room-runtime-2.6.0\AndroidManifest.xml:26:13-43
+128            android:exported="false" />
+128-->[androidx.room:room-runtime:2.6.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7da31a2d8b5a62cb816e0755526adb4d\workspace\transformed\room-runtime-2.6.0\AndroidManifest.xml:27:13-37
+129
+130        <receiver
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+132            android:directBootAware="false"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+133            android:enabled="true"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+134            android:exported="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+135            android:permission="android.permission.DUMP" >
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+147            </intent-filter>
+148        </receiver>
+149    </application>
+150
+151</manifest>

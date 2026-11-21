@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeColor="@color/card_border"
+    app:strokeWidth="1dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="14dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:id="@+id/tv_admin_report_id"
+                android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:text="RPT-1047"
+                android:textColor="@color/vuka_gold" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tv_admin_report_status"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="New" android:textColor="@color/vuka_text_primary"
+                android:textSize="11sp" android:background="@drawable/bg_status_pending"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/tv_admin_report_type"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Suspicious Activity"
+            android:textColor="@color/vuka_text_primary" android:textSize="14sp"
+            android:textStyle="bold" android:layout_marginTop="6dp" />
+
+        <TextView android:id="@+id/tv_admin_report_desc"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Suspicious activity reported near Bree St intersection. Vehicle followed the user for 3 blocks."
+            android:textColor="@color/vuka_text_secondary" android:textSize="12sp"
+            android:layout_marginTop="4dp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginTop="10dp">
+            <Button android:id="@+id/btn_admin_approve"
+                android:layout_width="0dp" android:layout_height="36dp"
+                android:layout_weight="1" android:text="@string/approve"
+                android:textColor="@color/vuka_navy_dark" android:textSize="12sp"
+                android:background="@drawable/bg_button_primary" android:layout_marginEnd="4dp"
+                android:contentDescription="Approve this report" />
+            <Button android:id="@+id/btn_admin_reject"
+                android:layout_width="0dp" android:layout_height="36dp"
+                android:layout_weight="1" android:text="@string/reject"
+                android:textColor="@color/sos_red" android:textSize="12sp"
+                android:background="@drawable/bg_risk_high" android:layout_marginEnd="4dp"
+                android:contentDescription="Reject this report" />
+            <Button android:id="@+id/btn_admin_escalate"
+                android:layout_width="0dp" android:layout_height="36dp"
+                android:layout_weight="1" android:text="@string/escalate"
+                android:textColor="@color/vuka_text_primary" android:textSize="12sp"
+                android:background="@drawable/bg_card"
+                android:contentDescription="Escalate this report" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

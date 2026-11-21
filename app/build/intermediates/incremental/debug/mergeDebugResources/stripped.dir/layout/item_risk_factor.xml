@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/tv_factor_type"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Time of Day Risk"
+            android:textColor="@color/vuka_text_primary" android:textSize="13sp"
+            android:textStyle="bold" />
+        <TextView android:id="@+id/tv_factor_confidence"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="High confidence"
+            android:textColor="@color/vuka_gold" android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_marginTop="6dp">
+        <TextView android:id="@+id/tv_factor_date"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Last 7 days"
+            android:textColor="@color/vuka_text_hint" android:textSize="11sp"
+            android:layout_marginEnd="8dp" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/tv_factor_explanation"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Evening trips between 6PM–10PM have a 23% higher incident correlation in this area."
+        android:textColor="@color/vuka_text_secondary" android:textSize="12sp"
+        android:layout_marginTop="6dp" />
+
+</LinearLayout>

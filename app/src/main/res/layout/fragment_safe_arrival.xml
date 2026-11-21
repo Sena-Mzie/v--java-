@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vuka_navy_dark"
+    android:padding="24dp">
+
+    <!-- Arrival Check -->
+    <LinearLayout android:id="@+id/ll_arrival_check"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center"
+        android:visibility="visible">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="📍" android:textSize="64sp" android:gravity="center" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/have_you_arrived"
+            android:textColor="@color/vuka_text_primary" android:textSize="24sp"
+            android:textStyle="bold" android:textAlignment="center"
+            android:gravity="center" android:layout_marginTop="20dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Sandton City, Sandton"
+            android:textColor="@color/vuka_gold" android:textSize="16sp"
+            android:textAlignment="center" android:gravity="center" android:layout_marginTop="8dp" />
+
+        <Button android:id="@+id/btn_yes_arrived"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="@string/yes_arrived"
+            android:textColor="@color/vuka_navy_dark" android:textStyle="bold"
+            android:textSize="18sp" android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="40dp"
+            android:contentDescription="Confirm safe arrival" />
+
+        <Button android:id="@+id/btn_need_help_arrival"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="@string/need_help_arrival"
+            android:textColor="@color/sos_red" android:textStyle="bold"
+            android:textSize="16sp" android:background="@drawable/bg_risk_high"
+            android:layout_marginTop="12dp"
+            android:contentDescription="I need help — activates SOS" />
+    </LinearLayout>
+
+    <!-- Trip Completed State -->
+    <LinearLayout android:id="@+id/ll_completed_state"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical" android:gravity="center"
+        android:visibility="gone">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="✅" android:textSize="80sp" android:gravity="center" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/trip_completed"
+            android:textColor="@color/risk_low" android:textSize="28sp"
+            android:textStyle="bold" android:textAlignment="center"
+            android:gravity="center" android:layout_marginTop="16dp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/contacts_notified_arrival"
+            android:textColor="@color/vuka_text_secondary" android:textSize="13sp"
+            android:textAlignment="center" android:gravity="center" android:layout_marginTop="8dp" />
+
+        <!-- Summary Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical" android:padding="16dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_vertical">
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="95/100" android:textColor="@color/vuka_gold"
+                            android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Safety Score" android:textColor="@color/vuka_text_secondary"
+                            android:textSize="11sp" android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="28 min" android:textColor="@color/vuka_text_primary"
+                            android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Duration" android:textColor="@color/vuka_text_secondary"
+                            android:textSize="11sp" android:gravity="center" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="12.5 km" android:textColor="@color/vuka_text_primary"
+                            android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Distance" android:textColor="@color/vuka_text_secondary"
+                            android:textSize="11sp" android:gravity="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button android:id="@+id/btn_view_details"
+            android:layout_width="match_parent" android:layout_height="44dp"
+            android:text="View Details" android:textColor="@color/vuka_text_primary"
+            android:textSize="14sp" android:background="@drawable/bg_button_secondary"
+            android:layout_marginTop="16dp"
+            android:contentDescription="View trip details" />
+
+        <Button android:id="@+id/btn_done_arrival"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="@string/done"
+            android:textColor="@color/vuka_navy_dark" android:textStyle="bold"
+            android:textSize="16sp" android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Close and go to dashboard" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

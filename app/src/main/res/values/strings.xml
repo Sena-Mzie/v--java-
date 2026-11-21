@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VUKA</string>
+    <string name="app_tagline">Safety Intelligence Platform\nfor E-Hailing</string>
+    <string name="app_full_tagline">See the Risk. Know the Journey. Get Home.</string>
+
+    <!-- Onboarding -->
+    <string name="welcome_title">Welcome to VUKA</string>
+    <string name="welcome_subtitle">Your safety intelligence companion for every trip</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign In</string>
+    <string name="skip">Skip</string>
+    <string name="continue_btn">Continue</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">We need a few permissions</string>
+    <string name="permissions_subtitle">VUKA needs these to keep you safe</string>
+    <string name="perm_location_title">Location</string>
+    <string name="perm_location_desc">For real-time trip tracking and route deviation detection</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_desc">For safety alerts and emergency notifications</string>
+    <string name="perm_sms_title">SMS</string>
+    <string name="perm_sms_desc">To notify your trusted contacts in an emergency</string>
+    <string name="perm_camera_title">Camera</string>
+    <string name="perm_camera_desc">For driver verification and incident photo uploads</string>
+    <string name="allow_permissions">Allow Permissions</string>
+    <string name="limited_mode_note">Some features will be limited without these permissions</string>
+
+    <!-- Role Selection -->
+    <string name="select_role_title">How will you use VUKA?</string>
+    <string name="select_role_subtitle">Select your role to personalise your experience</string>
+    <string name="role_driver">Driver</string>
+    <string name="role_driver_desc">Protect yourself before accepting trips</string>
+    <string name="role_passenger">Passenger</string>
+    <string name="role_passenger_desc">Know who you are travelling with</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="enter_phone">Enter your phone number</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="verify_number_title">Verify Your Number</string>
+    <string name="otp_sent_to">Enter the 6-digit code sent to</string>
+    <string name="resend">Resend</string>
+    <string name="verify">Verify</string>
+    <string name="demo_otp_hint">Demo OTP: 123456</string>
+    <string name="invalid_otp">Invalid OTP. Please try again.</string>
+    <string name="otp_expired">OTP expired. Please request a new one.</string>
+
+    <!-- Create PIN -->
+    <string name="create_pin_title">Create PIN</string>
+    <string name="create_pin_subtitle">For secure access</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_mismatch">PINs do not match</string>
+    <string name="pin_too_short">PIN must be at least 4 digits</string>
+
+    <!-- Biometric -->
+    <string name="biometric_title">Enable Biometric Access</string>
+    <string name="biometric_subtitle">Use your fingerprint or face unlock for faster access</string>
+    <string name="enable_biometric">Enable Biometric</string>
+
+    <!-- Driver Profile -->
+    <string name="driver_registration">Driver Registration</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="full_name">Full Name</string>
+    <string name="sa_id_or_passport">SA ID or Passport Number</string>
+    <string name="driver_photo">Driver Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="vehicle_make">Make</string>
+    <string name="vehicle_model">Model</string>
+    <string name="vehicle_colour">Colour</string>
+    <string name="ehailing_platform">E-hailing Platform</string>
+    <string name="select_platform">Select Platform</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="drivers_licence">Driver\'s Licence</string>
+    <string name="identity_document">Identity Document</string>
+    <string name="vehicle_registration_doc">Vehicle Registration</string>
+    <string name="upload_file">Upload File</string>
+    <string name="verification_pending">Pending Verification</string>
+    <string name="verification_approved">Approved</string>
+    <string name="verification_rejected">Rejected</string>
+    <string name="save_continue">Save &amp; Continue</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="id_number">ID Number</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="upload_photos">Upload Photos</string>
+
+    <!-- Passenger Profile -->
+    <string name="passenger_profile">Passenger Profile</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="profile_photo_optional">Profile Photo (Optional)</string>
+    <string name="trusted_contacts_intro">Add trusted contacts who can monitor your trips</string>
+    <string name="add_contact_now">Add Contact Now</string>
+
+    <!-- Trusted Contacts -->
+    <string name="trusted_contacts">Trusted Contacts</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="relationship">Relationship</string>
+    <string name="send_consent_request">Send Consent Request</string>
+    <string name="consent_pending_label">Pending</string>
+    <string name="consent_accepted_label">Accepted</string>
+    <string name="consent_declined_label">Declined</string>
+    <string name="remove_contact">Remove Contact</string>
+    <string name="edit_contact">Edit Contact</string>
+    <string name="no_contacts_yet">No trusted contacts added yet</string>
+    <string name="contacts_empty_hint">Add someone you trust to monitor your trips</string>
+
+    <!-- Dashboard -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="safety_status">Safety Status</string>
+    <string name="excellent">Excellent</string>
+    <string name="new_trip">New Trip</string>
+    <string name="verify_driver_label">Verify Driver</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="todays_trips">Today\'s Trips</string>
+    <string name="safety_insights">Safety Insights</string>
+    <string name="incident_hotspots">Incident Hotspots</string>
+    <string name="recent_alerts">Recent Alerts</string>
+    <string name="shared_trips">Shared Trips</string>
+    <string name="safety_alerts">Safety Alerts</string>
+    <string name="report_incident">Report Incident</string>
+    <string name="start_new_journey">Start New Journey</string>
+    <string name="create_trip">Create Trip</string>
+    <string name="view_all">View All</string>
+
+    <!-- Trip -->
+    <string name="pickup_location">Pickup Location</string>
+    <string name="destination">Destination</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="find_trip">Find Trip</string>
+    <string name="generate_safety_profile">Generate Safety Profile</string>
+    <string name="analyzing_route">Analysing your route for safety…</string>
+    <string name="checking_pickup">Checking Pickup Area…</string>
+    <string name="analyzing_route_step">Analysing Route…</string>
+    <string name="checking_destination">Checking Destination…</string>
+    <string name="building_profile">Building Safety Profile…</string>
+    <string name="trip_safety_profile">Trip Safety Profile</string>
+    <string name="overall_risk">Overall Risk</string>
+    <string name="pickup_risk">Pickup Risk</string>
+    <string name="route_risk">Route Risk</string>
+    <string name="destination_risk">Destination Risk</string>
+    <string name="risk_factors">Risk Factors</string>
+    <string name="safer_route_available">Safer Route Available</string>
+    <string name="use_safer_route">Use Safer Route</string>
+    <string name="keep_original">Keep Original</string>
+    <string name="view_route_options">View Route Options</string>
+    <string name="illustrative_data_note">⚠ ILLUSTRATIVE DATA — Not verified crime intelligence</string>
+    <string name="choose_safer_route">Choose Safer Route</string>
+    <string name="route_comparison">Route Comparison</string>
+    <string name="original_route">Original Route</string>
+    <string name="safer_route">Safer Route</string>
+    <string name="risk_difference">Risk Difference</string>
+
+    <!-- Verification -->
+    <string name="driver_verification">Driver Verification</string>
+    <string name="scan_qr_code">Scan Driver QR Code</string>
+    <string name="or_search_manually">or search manually</string>
+    <string name="manual_search">Manual Search</string>
+    <string name="driver_verified">Driver Verified</string>
+    <string name="vehicle_mismatch_warning">VEHICLE DOES NOT MATCH – DO NOT BOARD</string>
+    <string name="notify_contacts">Notify Contacts</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="vehicle_registration">Vehicle Registration</string>
+    <string name="simulated_verification_note">DEMO: Simulated verification — not a real identity check</string>
+    <string name="share_qr">Share QR</string>
+
+    <!-- Active Monitoring -->
+    <string name="active_monitoring">Active Monitoring</string>
+    <string name="share_trip">Share Trip</string>
+    <string name="track_live">Track Live</string>
+    <string name="eta">ETA</string>
+    <string name="driver_info">Driver Info</string>
+    <string name="trip_in_progress">Trip In Progress</string>
+    <string name="map_simulation_note">MAP SIMULATION — Not real GPS</string>
+
+    <!-- Route Deviation -->
+    <string name="route_change_detected">ROUTE CHANGE DETECTED</string>
+    <string name="is_everything_ok">Is Everything OK?</string>
+    <string name="im_ok">I\'m OK</string>
+    <string name="expected_detour">Expected Detour</string>
+    <string name="i_need_help">I Need Help</string>
+
+    <!-- Duress PIN / Check-in -->
+    <string name="safety_checkin">Safety Check-In</string>
+    <string name="are_you_safe">Are you safe?</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="im_safe">I\'m Safe</string>
+    <string name="need_help">Need Help</string>
+    <string name="checkin_success">Check-in confirmed</string>
+    <string name="pin_hint">Enter your 4-digit PIN</string>
+
+    <!-- SOS -->
+    <string name="sos">SOS</string>
+    <string name="sos_hold_instruction">Hold for 2 seconds to activate</string>
+    <string name="sos_confirm_title">Activate Emergency?</string>
+    <string name="sos_confirm_message">This will alert your trusted contacts and VUKA response team</string>
+    <string name="sos_emergency">Emergency</string>
+    <string name="sos_cancel">Cancel</string>
+    <string name="help_requested">HELP REQUESTED</string>
+    <string name="emergency_active">Emergency Active</string>
+    <string name="contacts_notified">Contacts Notified</string>
+    <string name="sms_sent">SMS Sent</string>
+    <string name="partner_notified">Partner Notified</string>
+    <string name="location_sharing_active">Location Sharing Active</string>
+    <string name="demo_notification_simulated">DEMO: Notification simulated — not sent</string>
+
+    <!-- Incident -->
+    <string name="report_incident_title">Report Incident</string>
+    <string name="incident_type">Incident Type</string>
+    <string name="suspicious_activity">Suspicious Activity</string>
+    <string name="robbery">Robbery</string>
+    <string name="hijacking">Hijacking</string>
+    <string name="unsafe_dropoff">Unsafe Drop-off</string>
+    <string name="road_blocked">Road Blocked</string>
+    <string name="other">Other</string>
+    <string name="incident_location">Incident Location</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="select_on_map">Select on Map</string>
+    <string name="add_photo">Add Photo (Optional)</string>
+    <string name="description">Description</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="report_submitted">REPORT SUBMITTED</string>
+    <string name="under_verification">UNDER VERIFICATION</string>
+    <string name="report_history">Report History</string>
+    <string name="no_reports_yet">No reports submitted yet</string>
+
+    <!-- Safe Arrival -->
+    <string name="have_you_arrived">HAVE YOU ARRIVED SAFELY?</string>
+    <string name="yes_arrived">Yes, I\'ve Arrived</string>
+    <string name="need_help_arrival">Need Help</string>
+    <string name="trip_completed">Trip Completed!</string>
+    <string name="safety_score">Safety Score</string>
+    <string name="end_monitoring">End Monitoring</string>
+    <string name="contacts_notified_arrival">Trusted contacts notified of safe arrival (DEMO)</string>
+
+    <!-- Trusted Contact View -->
+    <string name="live_tracking">Live Tracking</string>
+    <string name="traveller_name">Traveller</string>
+    <string name="trip_status_normal">Normal</string>
+    <string name="trip_status_sos">SOS Active</string>
+    <string name="trip_status_checkin">Check-In Active</string>
+    <string name="secure_demo_access">DEMO ACCESS — Simulated trusted contact view</string>
+
+    <!-- Admin -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="active_trips">Active Trips</string>
+    <string name="pending_reports">Pending Reports</string>
+    <string name="emergency_alerts">Emergency Alerts</string>
+    <string name="incident_hotspots_kpi">Incident Hotspots</string>
+    <string name="report_moderation">Report Moderation</string>
+    <string name="driver_verification_queue">Driver Verification Queue</string>
+    <string name="audit_logs">Audit Logs</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="merge">Merge</string>
+    <string name="escalate">Escalate</string>
+    <string name="request_more_info">Request More Info</string>
+    <string name="filter">Filter</string>
+    <string name="search">Search</string>
+    <string name="new_status">New</string>
+    <string name="reviewed_status">Reviewed</string>
+    <string name="verified_status">Verified</string>
+    <string name="rejected_status">Rejected</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="account_details">Account Details</string>
+    <string name="preferences">Preferences</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="logout">Logout</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="pin_settings">PIN Settings</string>
+    <string name="biometric_login">Biometric Login</string>
+    <string name="login_history">Login History</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="notifications_pref">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="app_theme">App Theme</string>
+    <string name="save_preferences">Save Preferences</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_trips">Trips</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_alerts">Alerts</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="required_field">This field is required</string>
+    <string name="invalid_phone">Please enter a valid South African phone number</string>
+    <string name="invalid_id">Please enter a valid SA ID or passport number</string>
+    <string name="reset_demo_data">Reset Demo Data</string>
+    <string name="demo_mode_active">DEMO MODE — Sample data only</string>
+    <string name="content_desc_vuka_logo">VUKA Safety Intelligence Platform logo</string>
+    <string name="content_desc_sos_button">Emergency SOS button — hold to activate</string>
+    <string name="content_desc_back">Go back</string>
+    <string name="content_desc_menu">Open menu</string>
+
+    <!-- E-hailing Platforms -->
+    <string-array name="ehailing_platforms">
+        <item>Select Platform</item>
+        <item>Uber</item>
+        <item>Bolt</item>
+        <item>inDrive</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Incident Types -->
+    <string-array name="incident_types">
+        <item>Select Type</item>
+        <item>Suspicious Activity</item>
+        <item>Robbery</item>
+        <item>Hijacking</item>
+        <item>Unsafe Drop-off</item>
+        <item>Road Blocked</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Risk Levels -->
+    <string name="risk_low">LOW</string>
+    <string name="risk_moderate">MODERATE</string>
+    <string name="risk_elevated">ELEVATED</string>
+    <string name="risk_high">HIGH</string>
+</resources>

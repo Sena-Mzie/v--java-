@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vuka_navy_dark"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:id="@+id/ll_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageButton
+                android:id="@+id/btn_back_trip"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_media_previous"
+                android:background="@drawable/bg_card"
+                android:contentDescription="@string/content_desc_back"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/create_trip"
+                android:textColor="@color/vuka_text_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginStart="8dp" />
+
+            <View android:layout_width="40dp" android:layout_height="40dp" />
+        </LinearLayout>
+
+        <!-- Map preview card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_map_preview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/map_bg"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/ll_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.vuka.app.utils.MapSimulationView
+                    android:id="@+id/map_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="Map preview simulation" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="8dp"
+                    android:text="MAP SIMULATION"
+                    android:textColor="@color/vuka_text_hint"
+                    android:textSize="9sp"
+                    android:background="@drawable/bg_card"
+                    android:padding="4dp" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Suggested Destinations label -->
+        <TextView
+            android:id="@+id/tv_suggested_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suggested Destinations"
+            android:textColor="@color/vuka_text_secondary"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/card_map_preview"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Suggested chips -->
+        <LinearLayout
+            android:id="@+id/ll_suggested"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_suggested_label"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button android:id="@+id/btn_home_sug" android:layout_width="wrap_content"
+                android:layout_height="36dp" android:text="🏠 Home"
+                android:textColor="@color/vuka_text_primary" android:textSize="13sp"
+                android:background="@drawable/bg_card" android:layout_marginEnd="8dp" android:padding="12dp"
+                android:contentDescription="Set Home as destination" />
+
+            <Button android:id="@+id/btn_work_sug" android:layout_width="wrap_content"
+                android:layout_height="36dp" android:text="💼 Work"
+                android:textColor="@color/vuka_text_primary" android:textSize="13sp"
+                android:background="@drawable/bg_card" android:padding="12dp"
+                android:contentDescription="Set Work as destination" />
+        </LinearLayout>
+
+        <!-- Form Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_trip_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/card_bg"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp"
+            app:strokeColor="@color/card_border"
+            app:strokeWidth="1dp"
+            app:layout_constraintTop_toBottomOf="@id/ll_suggested"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Pickup Location -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/pickup_location" android:textColor="@color/vuka_text_secondary"
+                    android:textSize="12sp" android:layout_marginBottom="6dp" />
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:background="@drawable/bg_input"
+                    android:gravity="center_vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📍" android:textSize="18sp" android:layout_marginEnd="8dp" />
+                    <EditText android:id="@+id/et_pickup"
+                        android:layout_width="0dp" android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Enter pickup location"
+                        android:textColor="@color/vuka_text_primary"
+                        android:textColorHint="@color/vuka_text_hint"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"
+                        android:importantForAutofill="no"
+                        android:contentDescription="Pickup location input" />
+                </LinearLayout>
+
+                <View android:layout_width="2dp" android:layout_height="20dp"
+                    android:background="@color/vuka_gold" android:layout_marginStart="24dp"
+                    android:layout_marginTop="2dp" android:layout_marginBottom="2dp" />
+
+                <!-- Destination -->
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/destination" android:textColor="@color/vuka_text_secondary"
+                    android:textSize="12sp" android:layout_marginBottom="6dp"
+                    android:layout_marginTop="4dp" />
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:background="@drawable/bg_input"
+                    android:gravity="center_vertical" android:padding="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🏁" android:textSize="18sp" android:layout_marginEnd="8dp" />
+                    <EditText android:id="@+id/et_destination"
+                        android:layout_width="0dp" android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="Enter destination"
+                        android:textColor="@color/vuka_text_primary"
+                        android:textColorHint="@color/vuka_text_hint"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"
+                        android:importantForAutofill="no"
+                        android:contentDescription="Destination input" />
+                </LinearLayout>
+
+                <!-- Date and Time Row -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:layout_marginTop="12dp">
+
+                    <LinearLayout android:id="@+id/ll_date_picker"
+                        android:layout_width="0dp" android:layout_height="52dp"
+                        android:layout_weight="1" android:orientation="horizontal"
+                        android:background="@drawable/bg_input" android:gravity="center_vertical"
+                        android:padding="12dp" android:layout_marginEnd="8dp"
+                        android:clickable="true" android:focusable="true"
+                        android:contentDescription="Select date">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="📅" android:textSize="18sp" android:layout_marginEnd="8dp" />
+                        <TextView android:id="@+id/tv_date"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Today" android:textColor="@color/vuka_text_primary"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+
+                    <LinearLayout android:id="@+id/ll_time_picker"
+                        android:layout_width="0dp" android:layout_height="52dp"
+                        android:layout_weight="1" android:orientation="horizontal"
+                        android:background="@drawable/bg_input" android:gravity="center_vertical"
+                        android:padding="12dp"
+                        android:clickable="true" android:focusable="true"
+                        android:contentDescription="Select time">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="🕐" android:textSize="18sp" android:layout_marginEnd="8dp" />
+                        <TextView android:id="@+id/tv_time"
+                            android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:text="Now" android:textColor="@color/vuka_text_primary"
+                            android:textSize="13sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Recent Trips label -->
+        <TextView
+            android:id="@+id/tv_recent_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent Trips"
+            android:textColor="@color/vuka_text_secondary"
+            android:textSize="13sp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/card_trip_form"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recent_trips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:nestedScrollingEnabled="false"
+            app:layout_constraintTop_toBottomOf="@id/tv_recent_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Error text -->
+        <TextView
+            android:id="@+id/tv_trip_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/risk_high"
+            android:textSize="13sp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/rv_recent_trips"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Generate Safety Profile Button -->
+        <Button
+            android:id="@+id/btn_generate_safety_profile"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/generate_safety_profile"
+            android:textColor="@color/vuka_navy_dark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:background="@drawable/bg_button_primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_trip_error"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

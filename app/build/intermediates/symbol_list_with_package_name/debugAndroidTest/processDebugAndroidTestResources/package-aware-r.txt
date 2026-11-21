@@ -1,0 +1,3 @@
+com.vuka.app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

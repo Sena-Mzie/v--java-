@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vuka_navy_dark"
+    android:padding="24dp">
+
+    <ImageView android:id="@+id/iv_shield"
+        android:layout_width="56dp" android:layout_height="56dp"
+        android:src="@drawable/ic_vuka_shield"
+        android:contentDescription="VUKA shield"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView android:id="@+id/tv_checkin_title"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/safety_checkin"
+        android:textColor="@color/vuka_text_primary" android:textSize="24sp"
+        android:textStyle="bold" android:textAlignment="center" android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/iv_shield"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView android:id="@+id/tv_are_you_safe"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/are_you_safe"
+        android:textColor="@color/vuka_text_secondary" android:textSize="16sp"
+        android:textAlignment="center" android:gravity="center"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_checkin_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- PIN Display -->
+    <LinearLayout android:id="@+id/ll_pin_display"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_are_you_safe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <View android:id="@+id/pin_dot_1" android:layout_width="16dp" android:layout_height="16dp"
+            android:background="@drawable/bg_card" android:layout_marginEnd="12dp" />
+        <View android:id="@+id/pin_dot_2" android:layout_width="16dp" android:layout_height="16dp"
+            android:background="@drawable/bg_card" android:layout_marginEnd="12dp" />
+        <View android:id="@+id/pin_dot_3" android:layout_width="16dp" android:layout_height="16dp"
+            android:background="@drawable/bg_card" android:layout_marginEnd="12dp" />
+        <View android:id="@+id/pin_dot_4" android:layout_width="16dp" android:layout_height="16dp"
+            android:background="@drawable/bg_card" />
+    </LinearLayout>
+
+    <!-- Numpad -->
+    <GridLayout android:id="@+id/gl_numpad"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:columnCount="3" android:rowCount="4"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/ll_pin_display"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <Button android:id="@+id/pin_1" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="1" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 1" />
+        <Button android:id="@+id/pin_2" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="2" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 2" />
+        <Button android:id="@+id/pin_3" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="3" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 3" />
+        <Button android:id="@+id/pin_4" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="4" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 4" />
+        <Button android:id="@+id/pin_5" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="5" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 5" />
+        <Button android:id="@+id/pin_6" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="6" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 6" />
+        <Button android:id="@+id/pin_7" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="7" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 7" />
+        <Button android:id="@+id/pin_8" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="8" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 8" />
+        <Button android:id="@+id/pin_9" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="9" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 9" />
+        <View android:layout_width="80dp" android:layout_height="60dp" android:layout_margin="6dp" />
+        <Button android:id="@+id/pin_0" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="0" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="PIN digit 0" />
+        <Button android:id="@+id/pin_delete" android:layout_width="80dp" android:layout_height="60dp"
+            android:text="⌫" android:textColor="@color/vuka_text_primary" android:textSize="22sp"
+            android:background="@drawable/bg_card" android:layout_margin="6dp"
+            android:contentDescription="Delete last PIN digit" />
+    </GridLayout>
+
+    <!-- Demo hint (shown as info only — not actionable) -->
+    <LinearLayout android:id="@+id/ll_demo_hint"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="12dp"
+        android:background="@drawable/bg_demo_banner"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/gl_numpad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="DEMO: Normal PIN = 1234  |  Duress PIN = 9999"
+            android:textColor="@color/vuka_text_primary" android:textSize="11sp"
+            android:gravity="center" android:layout_gravity="center" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Duress PIN triggers silent simulated escalation"
+            android:textColor="@color/vuka_text_primary" android:textSize="10sp"
+            android:gravity="center" android:layout_gravity="center" android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

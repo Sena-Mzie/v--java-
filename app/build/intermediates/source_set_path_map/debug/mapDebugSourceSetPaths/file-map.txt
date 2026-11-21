@@ -1,0 +1,53 @@
+com.vuka.app-jetified-window-1.0.0-0 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\06a6888f607a668c69efbf4108d21fad\workspace\transformed\jetified-window-1.0.0\res
+com.vuka.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-1 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\0ab4b87974f8da77bc0e1b5416c02161\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.vuka.app-jetified-lifecycle-livedata-core-ktx-2.6.2-2 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\0f2637d80d3b69d0a226900ac5460026\workspace\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\res
+com.vuka.app-slidingpanelayout-1.2.0-3 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\1498536e2da5b70d6a7e98d1f5425227\workspace\transformed\slidingpanelayout-1.2.0\res
+com.vuka.app-jetified-emoji2-views-helper-1.2.0-4 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\1596cc85a487c6485ad2cd6d1aa55a8d\workspace\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.vuka.app-jetified-savedstate-ktx-1.2.1-5 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\1684f20d4625556fba3a9ba5f98fe041\workspace\transformed\jetified-savedstate-ktx-1.2.1\res
+com.vuka.app-transition-1.4.1-6 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\1ce5d28c2df3915188297691eade8a86\workspace\transformed\transition-1.4.1\res
+com.vuka.app-jetified-core-ktx-1.12.0-7 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\1d3be1c302c38f3fed3a41d93b11f639\workspace\transformed\jetified-core-ktx-1.12.0\res
+com.vuka.app-jetified-fragment-ktx-1.6.2-8 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\25483b613f9681a7f4d36e849d9dbf7b\workspace\transformed\jetified-fragment-ktx-1.6.2\res
+com.vuka.app-jetified-viewpager2-1.1.0-beta02-9 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2b795cb1d0f3d728e847ad7f589c30ae\workspace\transformed\jetified-viewpager2-1.1.0-beta02\res
+com.vuka.app-constraintlayout-2.1.4-10 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2cecce2829347c3e9979ae0a189330db\workspace\transformed\constraintlayout-2.1.4\res
+com.vuka.app-jetified-lifecycle-process-2.6.2-11 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2da18823b2a03d65d9fffd06577b99c1\workspace\transformed\jetified-lifecycle-process-2.6.2\res
+com.vuka.app-appcompat-1.6.1-12 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\2ef58c13d6f556e33ed2661a664b9eeb\workspace\transformed\appcompat-1.6.1\res
+com.vuka.app-jetified-startup-runtime-1.1.1-13 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\3178accacb2a1e5558fd1399a4230395\workspace\transformed\jetified-startup-runtime-1.1.1\res
+com.vuka.app-jetified-emoji2-1.2.0-14 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\31d9bc65fe8fe655bdf9eb3de6cf52b6\workspace\transformed\jetified-emoji2-1.2.0\res
+com.vuka.app-swiperefreshlayout-1.1.0-15 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\41736ffeed08ffbcbcc83f982a631667\workspace\transformed\swiperefreshlayout-1.1.0\res
+com.vuka.app-core-1.12.0-16 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4302830c820e34ea3102b53767bc6bc5\workspace\transformed\core-1.12.0\res
+com.vuka.app-lifecycle-livedata-core-2.6.2-17 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\45865c83ffebe1be82c92af3b38b0548\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+com.vuka.app-core-runtime-2.2.0-18 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\46e9766741f40267636115109ac6e324\workspace\transformed\core-runtime-2.2.0\res
+com.vuka.app-coordinatorlayout-1.1.0-19 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\49bb94643d6239149846ab85b7c089e5\workspace\transformed\coordinatorlayout-1.1.0\res
+com.vuka.app-cardview-1.0.0-20 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4e5ab31f7a7cf6fc961fb6e6c8585231\workspace\transformed\cardview-1.0.0\res
+com.vuka.app-fragment-1.6.2-21 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\4efab615cf2c8b65b27666dc4bcd303b\workspace\transformed\fragment-1.6.2\res
+com.vuka.app-jetified-annotation-experimental-1.3.0-22 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\551c2429a409c597920492dbb6868d58\workspace\transformed\jetified-annotation-experimental-1.3.0\res
+com.vuka.app-jetified-profileinstaller-1.3.0-23 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\5e50d08e786cae532dca10abaf34ff79\workspace\transformed\jetified-profileinstaller-1.3.0\res
+com.vuka.app-jetified-glide-4.16.0-24 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\622a2ad1c8c8cd6dd02c38c2ce4b602e\workspace\transformed\jetified-glide-4.16.0\res
+com.vuka.app-preference-1.2.1-25 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\6e4b71a25589b539c5e2591babe6e767\workspace\transformed\preference-1.2.1\res
+com.vuka.app-room-runtime-2.6.0-26 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7da31a2d8b5a62cb816e0755526adb4d\workspace\transformed\room-runtime-2.6.0\res
+com.vuka.app-navigation-ui-2.7.5-27 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\7e3848c5faa073ba474f98864dc5433d\workspace\transformed\navigation-ui-2.7.5\res
+com.vuka.app-navigation-fragment-2.7.5-28 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\8412bf0b1073979b1a31d1cb35454e3b\workspace\transformed\navigation-fragment-2.7.5\res
+com.vuka.app-navigation-runtime-2.7.5-29 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\899b4ad1bc5daae4605e07ff440fbb7c\workspace\transformed\navigation-runtime-2.7.5\res
+com.vuka.app-recyclerview-1.3.2-30 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\8d2a6c1bc446c5606c4abc791d161487\workspace\transformed\recyclerview-1.3.2\res
+com.vuka.app-jetified-lifecycle-runtime-ktx-2.6.2-31 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\92d7728b229a9ebc4304d444374dfb09\workspace\transformed\jetified-lifecycle-runtime-ktx-2.6.2\res
+com.vuka.app-material-1.11.0-32 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\940b2335809aa97c7fe0b746e33ceab0\workspace\transformed\material-1.11.0\res
+com.vuka.app-sqlite-framework-2.4.0-33 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\a2212c532669569115da5f382db3867d\workspace\transformed\sqlite-framework-2.4.0\res
+com.vuka.app-jetified-savedstate-1.2.1-34 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\a3725fa2082ebb0af69c2c3179b557f6\workspace\transformed\jetified-savedstate-1.2.1\res
+com.vuka.app-jetified-activity-1.8.1-35 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\a560c96f3a0c1990ad7438cb73b20a7e\workspace\transformed\jetified-activity-1.8.1\res
+com.vuka.app-lifecycle-livedata-2.6.2-36 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\ac4455047655d826d54607dd47db3f77\workspace\transformed\lifecycle-livedata-2.6.2\res
+com.vuka.app-jetified-appcompat-resources-1.6.1-37 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\b4dd0edb3aa811c2ccd9766d941ab0f4\workspace\transformed\jetified-appcompat-resources-1.6.1\res
+com.vuka.app-drawerlayout-1.1.1-38 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\bb01c216bd48e97bebb46b733f36a57e\workspace\transformed\drawerlayout-1.1.1\res
+com.vuka.app-navigation-common-2.7.5-39 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\be64502863fd61c057c9ec4143bbe9e1\workspace\transformed\navigation-common-2.7.5\res
+com.vuka.app-lifecycle-runtime-2.6.2-40 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\c95c329e25580156dcc5687bfccd9ef8\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.vuka.app-jetified-customview-poolingcontainer-1.0.0-41 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\d575f737c059da80826b27a228f67936\workspace\transformed\jetified-customview-poolingcontainer-1.0.0\res
+com.vuka.app-jetified-activity-ktx-1.8.1-42 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\dd5d79edbd02c6dc6f231a93feec20cc\workspace\transformed\jetified-activity-ktx-1.8.1\res
+com.vuka.app-lifecycle-viewmodel-2.6.2-43 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\e82243a10a0336863ba442f39b9d13ea\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+com.vuka.app-jetified-lifecycle-viewmodel-ktx-2.6.2-44 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\fa7fa4e734759bec4a0c96445319d971\workspace\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\res
+com.vuka.app-sqlite-2.4.0-45 C:\Users\FMTALI-16\.gradle\caches\9.3.1\transforms\fa8f3b05effa84ff1eb3e0810a0e1b93\workspace\transformed\sqlite-2.4.0\res
+com.vuka.app-pngs-46 C:\Users\FMTALI-16\Desktop\v (java)\app\build\generated\res\pngs\debug
+com.vuka.app-resValues-47 C:\Users\FMTALI-16\Desktop\v (java)\app\build\generated\res\resValues\debug
+com.vuka.app-packageDebugResources-48 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.vuka.app-packageDebugResources-49 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.vuka.app-debug-50 C:\Users\FMTALI-16\Desktop\v (java)\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.vuka.app-debug-51 C:\Users\FMTALI-16\Desktop\v (java)\app\src\debug\res
+com.vuka.app-main-52 C:\Users\FMTALI-16\Desktop\v (java)\app\src\main\res

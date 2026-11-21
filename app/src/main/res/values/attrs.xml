@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for OTP input view -->
+    <declare-styleable name="OtpInputView">
+        <attr name="otpLength" format="integer" />
+        <attr name="otpBoxWidth" format="dimension" />
+        <attr name="otpBoxHeight" format="dimension" />
+        <attr name="otpTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Custom attributes for SOS button -->
+    <declare-styleable name="SosButton">
+        <attr name="holdDuration" format="integer" />
+        <attr name="sosSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Custom attributes for risk indicator -->
+    <declare-styleable name="RiskIndicatorView">
+        <attr name="riskLevel" format="enum">
+            <enum name="low" value="0" />
+            <enum name="moderate" value="1" />
+            <enum name="elevated" value="2" />
+            <enum name="high" value="3" />
+        </attr>
+        <attr name="riskScore" format="integer" />
+        <attr name="showLabel" format="boolean" />
+    </declare-styleable>
+
+    <!-- Map simulation view -->
+    <declare-styleable name="MapSimulationView">
+        <attr name="showRoute" format="boolean" />
+        <attr name="showDeviation" format="boolean" />
+        <attr name="animateVehicle" format="boolean" />
+    </declare-styleable>
+</resources>

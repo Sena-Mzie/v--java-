@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vuka_navy_dark">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <!-- Profile Header -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16dp"
+            app:cardElevation="2dp" app:strokeColor="@color/card_border" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:padding="16dp"
+                android:gravity="center_vertical">
+                <TextView android:id="@+id/tv_profile_avatar"
+                    android:layout_width="60dp" android:layout_height="60dp"
+                    android:text="JD" android:textColor="@color/vuka_gold"
+                    android:textStyle="bold" android:textSize="20sp"
+                    android:gravity="center" android:background="@drawable/bg_avatar_circle"
+                    android:contentDescription="Profile avatar" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+                    <TextView android:id="@+id/tv_profile_name"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Jane Doe" android:textColor="@color/vuka_text_primary"
+                        android:textSize="18sp" android:textStyle="bold" />
+                    <TextView android:id="@+id/tv_profile_phone"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="+27 71 123 4567" android:textColor="@color/vuka_text_secondary"
+                        android:textSize="13sp" android:layout_marginTop="2dp" />
+                    <TextView android:id="@+id/tv_profile_role"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Passenger" android:textColor="@color/vuka_gold"
+                        android:textSize="12sp" android:layout_marginTop="2dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Menu Items -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardBackgroundColor="@color/card_bg" app:cardCornerRadius="16dp"
+            app:cardElevation="2dp" app:strokeColor="@color/card_border" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout android:id="@+id/item_account"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:padding="16dp" android:clickable="true" android:focusable="true"
+                    android:contentDescription="Account details">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="👤" android:textSize="18sp" android:layout_marginEnd="12dp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="@string/account_details"
+                        android:textColor="@color/vuka_text_primary" android:textSize="14sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="›" android:textColor="@color/vuka_text_hint" android:textSize="20sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginStart="16dp" />
+                <LinearLayout android:id="@+id/item_preferences"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:padding="16dp" android:clickable="true" android:focusable="true"
+                    android:contentDescription="Preferences">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="⚙" android:textSize="18sp" android:layout_marginEnd="12dp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="@string/preferences"
+                        android:textColor="@color/vuka_text_primary" android:textSize="14sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="›" android:textColor="@color/vuka_text_hint" android:textSize="20sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginStart="16dp" />
+                <LinearLayout android:id="@+id/item_security"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:padding="16dp" android:clickable="true" android:focusable="true"
+                    android:contentDescription="Security settings">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🔒" android:textSize="18sp" android:layout_marginEnd="12dp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="@string/security_settings"
+                        android:textColor="@color/vuka_text_primary" android:textSize="14sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="›" android:textColor="@color/vuka_text_hint" android:textSize="20sp" />
+                </LinearLayout>
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginStart="16dp" />
+                <LinearLayout android:id="@+id/item_help"
+                    android:layout_width="match_parent" android:layout_height="52dp"
+                    android:orientation="horizontal" android:gravity="center_vertical"
+                    android:padding="16dp" android:clickable="true" android:focusable="true"
+                    android:contentDescription="Help and support">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="❓" android:textSize="18sp" android:layout_marginEnd="12dp" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                        android:layout_weight="1" android:text="@string/help_support"
+                        android:textColor="@color/vuka_text_primary" android:textSize="14sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="›" android:textColor="@color/vuka_text_hint" android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Logout -->
+        <LinearLayout android:id="@+id/item_logout"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:background="@drawable/bg_card"
+            android:padding="16dp" android:clickable="true" android:focusable="true"
+            android:contentDescription="Logout from VUKA">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🚪" android:textSize="18sp" android:layout_marginEnd="12dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/logout" android:textColor="@color/sos_red" android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Demo Reset -->
+        <Button android:id="@+id/btn_reset_demo"
+            android:layout_width="match_parent" android:layout_height="44dp"
+            android:text="@string/reset_demo_data"
+            android:textColor="@color/vuka_text_hint" android:textSize="13sp"
+            android:background="@android:color/transparent" android:layout_marginTop="16dp"
+            android:contentDescription="Reset all demonstration data to defaults" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/demo_mode_active" android:textColor="@color/vuka_text_hint"
+            android:textSize="11sp" android:textAlignment="center" android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

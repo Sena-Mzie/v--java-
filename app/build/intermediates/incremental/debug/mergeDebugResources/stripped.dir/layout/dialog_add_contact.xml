@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_card"
+    android:padding="24dp">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/add_contact"
+        android:textColor="@color/vuka_text_primary" android:textSize="20sp"
+        android:textStyle="bold" android:layout_marginBottom="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_dialog_name"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/contact_name"
+        style="@style/Widget.Vuka.TextInput"
+        android:layout_marginBottom="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_dialog_name"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/vuka_text_primary" android:textSize="14sp"
+            android:importantForAutofill="no"
+            android:contentDescription="Enter contact name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_dialog_phone"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/contact_number"
+        style="@style/Widget.Vuka.TextInput"
+        android:layout_marginBottom="12dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_dialog_phone"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/vuka_text_primary" android:textSize="14sp"
+            android:inputType="phone" android:importantForAutofill="no"
+            android:contentDescription="Enter contact phone number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_dialog_relationship"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/relationship"
+        style="@style/Widget.Vuka.TextInput"
+        android:layout_marginBottom="20dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_dialog_relationship"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="@color/vuka_text_primary" android:textSize="14sp"
+            android:importantForAutofill="no"
+            android:contentDescription="Enter relationship to contact" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="A consent request SMS will be simulated (DEMO)"
+        android:textColor="@color/vuka_text_hint" android:textSize="11sp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn_dialog_cancel"
+            android:layout_width="0dp" android:layout_height="44dp"
+            android:layout_weight="1" android:text="@string/cancel"
+            android:textColor="@color/vuka_text_secondary" android:textSize="14sp"
+            android:background="@drawable/bg_button_secondary" android:layout_marginEnd="8dp"
+            android:contentDescription="Cancel adding contact" />
+        <Button android:id="@+id/btn_dialog_save"
+            android:layout_width="0dp" android:layout_height="44dp"
+            android:layout_weight="1" android:text="@string/save_contact"
+            android:textColor="@color/vuka_navy_dark" android:textStyle="bold"
+            android:textSize="14sp" android:background="@drawable/bg_button_primary"
+            android:contentDescription="Save the new trusted contact" />
+    </LinearLayout>
+
+</LinearLayout>

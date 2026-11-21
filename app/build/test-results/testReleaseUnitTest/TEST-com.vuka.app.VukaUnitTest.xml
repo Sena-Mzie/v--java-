@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vuka.app.VukaUnitTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-19T18:46:41.770Z" hostname="DESKTOP-66EKRTM" time="0.051">
+  <properties/>
+  <testcase name="testSAIdValidation" classname="com.vuka.app.VukaUnitTest" time="0.011"/>
+  <testcase name="testSosActivationAndCancellation" classname="com.vuka.app.VukaUnitTest" time="0.007"/>
+  <testcase name="testRegistrationValidation" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testContactAddRemove" classname="com.vuka.app.VukaUnitTest" time="0.002"/>
+  <testcase name="testRiskLabels" classname="com.vuka.app.VukaUnitTest" time="0.002"/>
+  <testcase name="testPhoneNormalization" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testMockDataRepositorySeeding" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testPhoneValidation" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testUserInitials" classname="com.vuka.app.VukaUnitTest" time="0.0"/>
+  <testcase name="testRiskIcons" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testTrustedContactInitials" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <testcase name="testTripStatusTransitions" classname="com.vuka.app.VukaUnitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
